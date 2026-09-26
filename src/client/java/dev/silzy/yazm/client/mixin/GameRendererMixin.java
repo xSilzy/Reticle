@@ -4,7 +4,7 @@
  * Licensed under GNU GPLv3. See LICENSE for details.
  */
 
-package com.silzy.yazm.client.mixin;
+package dev.silzy.yazm.client.mixin;
 
 import net.minecraft.client.render.Camera;
 import net.minecraft.client.render.GameRenderer;
@@ -13,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import static com.silzy.yazm.client.zoom.ZoomHandler.updateFov;
+import static dev.silzy.yazm.client.zoom.ZoomHandler.updateFov;
 
 @Mixin(GameRenderer.class)
 public class GameRendererMixin {

@@ -1,11 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.silzy.yazm.client.mixin",
+  "package": "dev.silzy.yazm.client.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "GameRendererMixin",
-    "MouseMixin"
+    "MouseMixin",
+    "ClampedEntityAttributeMixin"
   ],
   "injectors": {
     "defaultRequire": 1

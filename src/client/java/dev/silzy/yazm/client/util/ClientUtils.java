@@ -4,7 +4,7 @@
  * Licensed under GNU GPLv3. See LICENSE for details.
  */
 
-package com.silzy.yazm.client.util;
+package dev.silzy.yazm.client.util;
 
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.text.Text;

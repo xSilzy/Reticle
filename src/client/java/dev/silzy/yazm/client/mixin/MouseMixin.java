@@ -4,7 +4,7 @@
  * Licensed under GNU GPLv3. See LICENSE for details.
  */
 
-package com.silzy.yazm.client.mixin;
+package dev.silzy.yazm.client.mixin;
 
 import net.minecraft.client.Mouse;
 import net.minecraft.client.network.ClientPlayerEntity;
@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import static com.silzy.yazm.client.zoom.ZoomHandler.*;
+import static dev.silzy.yazm.client.zoom.ZoomHandler.*;
 import static java.lang.Math.clamp;
 
 @Mixin(Mouse.class)

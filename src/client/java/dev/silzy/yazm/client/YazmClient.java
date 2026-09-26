@@ -4,11 +4,11 @@
  * Licensed under GNU GPLv3. See LICENSE for details.
  */
 
-package com.silzy.yazm.client;
+package dev.silzy.yazm.client;
 
 import net.fabricmc.api.ClientModInitializer;
 
-import static com.silzy.yazm.client.core.Yazm.initYazm;
+import static dev.silzy.yazm.client.core.Yazm.initYazm;
 
 public class YazmClient implements ClientModInitializer {
 

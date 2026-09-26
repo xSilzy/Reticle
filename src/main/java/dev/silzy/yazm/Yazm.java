@@ -1,4 +1,4 @@
-package com.silzy.yazm;
+package dev.silzy.yazm;
 
 import net.fabricmc.api.ModInitializer;
 

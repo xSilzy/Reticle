@@ -11,13 +11,13 @@
   "environment": "client",
   "entrypoints": {
     "fabric-datagen": [
-      "com.silzy.yazm.client.YazmDataGenerator"
+      "dev.silzy.yazm.client.YazmDataGenerator"
     ],
     "client": [
-      "com.silzy.yazm.client.YazmClient"
+      "dev.silzy.yazm.client.YazmClient"
     ],
     "main": [
-      "com.silzy.yazm.Yazm"
+      "dev.silzy.yazm.Yazm"
     ]
   },
   "mixins": [

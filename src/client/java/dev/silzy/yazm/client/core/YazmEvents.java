@@ -4,17 +4,17 @@
  * Licensed under GNU GPLv3. See LICENSE for details.
  */
 
-package com.silzy.yazm.client.core;
+package dev.silzy.yazm.client.core;
 
 import net.fabricmc.fabric.api.event.Event;
 import net.fabricmc.fabric.api.event.EventFactory;
 
 public class YazmEvents {
 
-    public static final Event<OnZoom> ON_ZOOM = EventFactory.createArrayBacked(OnZoom.class,
+    public static final Event<OnActivate> ON_ACTIVATE = EventFactory.createArrayBacked(OnActivate.class,
             (listeners) -> () -> {
-                for (OnZoom listener : listeners) {
-                    listener.onZoom();
+                for (OnActivate listener : listeners) {
+                    listener.onActivate();
                 }
             }
         );
@@ -27,9 +27,10 @@ public class YazmEvents {
             }
         );
 
+
     @FunctionalInterface
-    public interface OnZoom {
-        void onZoom();
+    public interface OnActivate {
+        void onActivate();
     }
 
     @FunctionalInterface
