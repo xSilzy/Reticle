@@ -4,13 +4,13 @@
  * Licensed under GNU GPLv3. See LICENSE for details.
  */
 
-package dev.silzy.yazm.client;
+package dev.silzy.reticle.client;
 
 import net.fabricmc.api.ClientModInitializer;
 
-import static dev.silzy.yazm.client.core.Yazm.initYazm;
+import static dev.silzy.reticle.client.core.Reticle.initYazm;
 
-public class YazmClient implements ClientModInitializer {
+public class ReticleClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {

@@ -4,7 +4,7 @@
  * Licensed under GNU GPLv3. See LICENSE for details.
  */
 
-package dev.silzy.yazm.client.math;
+package dev.silzy.reticle.client.math;
 
 public interface EasingFunction {
     float ease(float t);

@@ -4,10 +4,10 @@
  * Licensed under GNU GPLv3. See LICENSE for details.
  */
 
-package dev.silzy.yazm.client.zoom;
+package dev.silzy.reticle.client.zoom;
 
-import dev.silzy.yazm.client.math.EasingFunction;
-import dev.silzy.yazm.client.math.EasingHelper;
+import dev.silzy.reticle.client.math.EasingFunction;
+import dev.silzy.reticle.client.math.EasingHelper;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.minecraft.client.option.Perspective;
 import net.minecraft.client.util.InputUtil;
@@ -20,11 +20,11 @@ import net.minecraft.util.Identifier;
 
 import java.util.Objects;
 
-import static dev.silzy.yazm.client.core.Yazm.*;
-import static dev.silzy.yazm.client.util.ClientUtils.getDeltaTime;
-import static dev.silzy.yazm.client.util.ClientUtils.sendActionBarMessage;
-import static dev.silzy.yazm.client.util.KeybindUtils.KeyCategory;
-import static dev.silzy.yazm.client.util.KeybindUtils.newKeyBind;
+import static dev.silzy.reticle.client.core.Reticle.*;
+import static dev.silzy.reticle.client.util.ClientUtils.getDeltaTime;
+import static dev.silzy.reticle.client.util.ClientUtils.sendActionBarMessage;
+import static dev.silzy.reticle.client.util.KeybindUtils.KeyCategory;
+import static dev.silzy.reticle.client.util.KeybindUtils.newKeyBind;
 import static java.lang.Math.abs;
 import static net.minecraft.util.math.MathHelper.clamp;
 import static net.minecraft.util.math.MathHelper.lerp;

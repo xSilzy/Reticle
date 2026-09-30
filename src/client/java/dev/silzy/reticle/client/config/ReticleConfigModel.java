@@ -1,13 +1,13 @@
-package dev.silzy.yazm.client.config;
+package dev.silzy.reticle.client.config;
 
 import io.wispforest.owo.config.annotation.Config;
 import io.wispforest.owo.config.annotation.Modmenu;
 import io.wispforest.owo.config.annotation.SectionHeader;
 import net.minecraft.client.option.Perspective;
 
-@Modmenu(modId = "yazm")
-@Config(name = "yazmConfig", wrapperName = "YazmConfig")
-public class YazmConfigModel {
+@Modmenu(modId = "reticle")
+@Config(name = "reticleConfig", wrapperName = "reticleConfig")
+public class ReticleConfigModel {
     // General Zoom Settings
 
     @SectionHeader("zoomSettings")

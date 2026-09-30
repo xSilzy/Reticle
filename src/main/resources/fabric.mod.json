@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "yazm",
+  "id": "reticle",
   "version": "${version}",
-  "name": "yet-another-zoom-mod",
-  "description": "Yet another zoom mod with a lot of features!",
+  "name": "Reticle",
+  "description": "Reticle!",
   "authors": ["Silzy"],
   "contact": {},
   "license": "GPLv3",
-  "icon": "assets/yazm/icon.png",
+  "icon": "assets/reticle/icon.png",
   "environment": "client",
   "entrypoints": {
     "fabric-datagen": [
-      "dev.silzy.yazm.client.YazmDataGenerator"
+      "dev.silzy.reticle.client.ReticleDataGenerator"
     ],
     "client": [
-      "dev.silzy.yazm.client.YazmClient"
+      "dev.silzy.reticle.client.ReticleClient"
     ],
     "main": [
-      "dev.silzy.yazm.Yazm"
+      "dev.silzy.reticle.Reticle"
     ]
   },
   "mixins": [
-    "yazm.mixins.json",
+    "reticle.mixins.json",
     {
-      "config": "yazm.client.mixins.json",
+      "config": "reticle.client.mixins.json",
       "environment": "client"
     }
   ],

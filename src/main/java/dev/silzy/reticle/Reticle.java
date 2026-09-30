@@ -1,8 +1,8 @@
-package dev.silzy.yazm;
+package dev.silzy.reticle;
 
 import net.fabricmc.api.ModInitializer;
 
-public class Yazm implements ModInitializer {
+public class Reticle implements ModInitializer {
 
     @Override
     public void onInitialize() {

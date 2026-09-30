@@ -1,4 +1,4 @@
-package dev.silzy.yazm.client.mixin;
+package dev.silzy.reticle.client.mixin;
 
 import net.minecraft.entity.attribute.ClampedEntityAttribute;
 import org.spongepowered.asm.mixin.Final;

@@ -4,12 +4,12 @@
  * Licensed under GNU GPLv3. See LICENSE for details.
  */
 
-package dev.silzy.yazm.client.core;
+package dev.silzy.reticle.client.core;
 
 import net.fabricmc.fabric.api.event.Event;
 import net.fabricmc.fabric.api.event.EventFactory;
 
-public class YazmEvents {
+public class ReticleEvents {
 
     public static final Event<OnActivate> ON_ACTIVATE = EventFactory.createArrayBacked(OnActivate.class,
             (listeners) -> () -> {

@@ -4,11 +4,11 @@
  * Licensed under GNU GPLv3. See LICENSE for details.
  */
 
-package dev.silzy.yazm.client.math;
+package dev.silzy.reticle.client.math;
 
 import java.util.HashMap;
 import java.util.Map;
-import static dev.silzy.yazm.client.core.Yazm.LOGGER;
+import static dev.silzy.reticle.client.core.Reticle.LOGGER;
 
 public class EasingHelper {
     private static final Map<String, EasingFunction> FUNCTIONS = new HashMap<>();
